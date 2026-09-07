@@ -17,9 +17,9 @@ jobs:
 
       - name: 2. Create Admin Account
         run: |
-          $Password = ConvertTo-SecureString "CopyByGithub6amirreza6" -AsPlainText -Force
-          New-LocalUser -Name "CopyByGithub6amirreza6" -Password $Password -PasswordNeverExpires -ErrorAction SilentlyContinue
-          Add-LocalGroupMember -Group "Administrators" -Member "CopyByGithub6amirreza6" -ErrorAction SilentlyContinue
+          $Password = ConvertTo-SecureString "ForkGithub6amirreza6" -AsPlainText -Force
+          New-LocalUser -Name "ForkGithub6amirreza6" -Password $Password -PasswordNeverExpires -ErrorAction SilentlyContinue
+          Add-LocalGroupMember -Group "Administrators" -Member "ForkGithub6amirreza6" -ErrorAction SilentlyContinue
 
       - name: 3. Install & Connect Tailscale VPN
         env:
@@ -30,7 +30,7 @@ jobs:
 
           Start-Sleep -Seconds 5
 
-          & "C:\Program Files\Tailscale\tailscale.exe" up --authkey="$Env:TAILSCALE_AUTHKEY" --hostname="CopyByGithub6amirreza6"
+          & "C:\Program Files\Tailscale\tailscale.exe" up --authkey="$Env:TAILSCALE_AUTHKEY" --hostname="ForkGithub6amirreza6"
 
           Start-Sleep -Seconds 8
 
@@ -40,8 +40,8 @@ jobs:
           Write-Host "==================================================" -ForegroundColor Green
           Write-Host "  >>> RDP SERVER IS READY! <<<" -ForegroundColor Cyan
           Write-Host "  Tailscale IP : $ts_ip" -ForegroundColor Yellow
-          Write-Host "  Username     : CopyByGithub6amirreza6" -ForegroundColor Yellow
-          Write-Host "  Password     : CopyByGithub6amirreza6" -ForegroundColor Yellow
+          Write-Host "  Username     : ForkGithub6amirreza6" -ForegroundColor Yellow
+          Write-Host "  Password     : ForkGithub6amirreza6" -ForegroundColor Yellow
           Write-Host "  >> Open mstsc and connect to: $ts_ip" -ForegroundColor Magenta
           Write-Host "==================================================" -ForegroundColor Green
 
