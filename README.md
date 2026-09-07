@@ -1,4 +1,9 @@
 # Create By 6amirreza6
+
+# اگر نفهمیدید لینک گیت هاب را بدید Ai و بهش بگید بهتون تو توضیح بده
+# If you don't understand, give Ai the GitHub link and ask him to explain it to you.
+
+
 ```markdown
 Instructions are provided in Farsi and English below. Please read all the content thoroughly.
 دستورالعمل‌ها به زبان‌های فارسی و انگلیسی در زیر ارائه شده‌اند. لطفاً تمام مطالب را به طور کامل مطالعه کنید.
