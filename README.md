@@ -3,7 +3,6 @@
 Free Windows VPS — Using the RDP & Tailscale Method
 
 Instructions are provided in Farsi and English below. Please read all the content thoroughly.
----------------------------------------------------------------------------------------------------------
 # توضیحات:
 وی پی اس رایگان ویندوزی - با روش RDP و Tailscale
 
